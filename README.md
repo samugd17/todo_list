@@ -1,3 +1,19 @@
+# ToDo list
+
+Para probar esta aplicación, debremos seguir tres sencillos pasos:
+
+1. Clonación de repositorio
+```console
+git clone git@github.com:samugd17/todo_list.git
+```
+2. Instalación de paquetes necesarios
+```console
+npm install
+```
+3. Lanzamiento de la app en localhost:3000
+```console
+npm start
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
