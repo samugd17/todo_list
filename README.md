@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Lista de tareas con persistencia de datos
 
 <img src="img/todo.png">
@@ -24,3 +26,5 @@ npm start
 
 ## Acceso a aplicación desplegada
 La aplicación se encuentra desplegada a través de [Vercel](https://vercel.com/) y puede ser visitada a través de [este enlace](https://todo-list-lac-nu.vercel.app/).
+
+</div>

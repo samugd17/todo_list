@@ -91,7 +91,7 @@ export const TodoWrapper = () => {
       {/* Contador de tareas realizadas */}
       <p id="done-tasks">Tareas realizadas: {todos.filter((todo) => todo.completed).length}</p>
       {/* Botón para seleccionar/deseleccionar todas las tareas */}
-      <button className="post-btn" onClick={toggleSelectAll}>Seleccionar todas</button>
+      <button className="post-btn" onClick={toggleSelectAll}>Seleccionar/Deseleccionar todas</button>
       {/* Botón para eliminar las tareas seleccionadas */}
       <button className="post-btn" onClick={deleteSelected}>Borrar seleccionadas</button>
     </div>

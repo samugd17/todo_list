@@ -3,8 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 export const EditTodoForm = ({ editTodo, task }) => {
   // Estado local para almacenar el valor del campo de texto
   const [value, setValue] = useState(task.task);
-
-  // Referencia al campo de texto para enfocarlo automáticamente
+  // Referencia el campo de texto para enfocarlo automáticamente
   const inputRef = useRef(null);
 
   // Efecto que se ejecuta una vez después del montaje del componente
@@ -27,7 +26,7 @@ export const EditTodoForm = ({ editTodo, task }) => {
         type="text"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        ref={inputRef} // Asignar la referencia al campo de texto
+        ref={inputRef} // Asigna la referencia al campo de texto
         className="todo-input"
         placeholder="Actualizar tarea"
       />

@@ -11,14 +11,12 @@ export const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
 
   return (
     <div className={`Todo ${task.completed ? 'completed' : ''}`}>
-      {/* Casilla de verificación para marcar la tarea como completada o no */}
       <input
         type="checkbox"
         checked={task.completed}
         onChange={handleToggleComplete}
         className="todo-checkbox"
       />
-      {/* Texto de la tarea */}
       <p className="todo-text">
         {task.task}
       </p>
