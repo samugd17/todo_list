@@ -2,9 +2,9 @@
 
 # Lista de tareas con persistencia de datos
 
-<div align="center">
+
  <img src="img/todo.png">
-</div>
+
 
 Para probar esta aplicación, podemos seguir dos caminos:
  
