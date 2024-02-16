@@ -2,14 +2,12 @@
 
 # Lista de tareas con persistencia de datos
 
-
+<div align="center">
  <img src="img/todo.png">
-
-
-Para probar esta aplicación, podemos seguir dos caminos:
+</div>
  
 ## Despliegue en desarrollo
-Para desplegar la aplicación en local, debemos seguir tres sencillos pasos:
+Para probar y desplegar la aplicación en local, debemos seguir tres sencillos pasos:
 
 1. Clonación de repositorio
 ```console
